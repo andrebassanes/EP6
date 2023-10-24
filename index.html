@@ -32,6 +32,43 @@
     <p>O estudo do movimento de projéteis tem inúmeras aplicações em várias áreas:</p>
     
 </div>
+<script src="script.js"></script>
+
+<form>
+    <h3>Um projétil é lançado segundo um ângulo de 30° com a horizontal, com uma velocidade de 200m/s. Supondo a aceleração da gravidade igual a 10 m/s2 e desprezando a resistência do ar, o intervalo de tempo entre as passagens do projétil pelos pontos de altura 480 m acima do ponto de lançamento, em segundos, é:
+        (DADOS: sen 30° = 0,50 e cos 30° = 0,87)</h3>
+    <input type="radio" name="quest_1" value="correta">4,0<br>
+    <input type="radio" name="quest_1" value="errada">6,0<br>
+    <input type="radio" name="quest_1" value="errada">12<br>
+    <input type="radio" name="quest_1" value="errada">8,0<br>
+    <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+    <h3>Um avião de bombardeio voa a uma altitude de 320 m com uma velocidade de 70 m/s e surpreende uma lancha torpedeira viajando a 20 m/s na mesma direção e sentido do avião. A que distância horizontal atrás da lancha o avião deve lançar a bomba para atingi-la? Adote g = 10m . s-2.
+
+    </h3>
+    <input type="radio" name="quest_2" value="errada">560 <br>
+    <input type="radio" name="quest_2" value="errada">160 <br>
+    <input type="radio" name="quest_2" value="correta">400 <br>
+    <input type="radio" name="quest_2" value="errada">2100 <br>
+    <p id="resp_correta_2" class="verde"></p><p id="resp_errada_2" class="vermelho"></p>
+
+    <h3>Para bombardear um alvo, um avião em voo horizontal a uma altitude de 2,0 km solta uma bomba quando a sua distância horizontal até o alvo é de 4,0 km. Admite-se que a resistência do ar seja desprezível. Para atingir o mesmo alvo, se o avião voasse com a mesma velocidade, mas agora a uma altitude de apenas 0,50 km, ele teria que soltar a bomba a uma distância horizontal do alvo igual a:</h3>
+    <input type="radio" name="quest_3" value="errada">0,25 km <br>
+    <input type="radio" name="quest_3" value="errada">1,0 km <br>
+    <input type="radio" name="quest_3" value="errada">1,5 km <br>
+    <input type="radio" name="quest_3" value="correta">2,0km <br>
+    <p id="resp_correta_3" class="verde"></p><p id="resp_errada_3" class="vermelho"></p><br>
+
+    <h3>Ganhou destaque no voleibol brasileiro a jogada denominada “jornada nas estrelas”, na qual a bola arremessada de um lado da quadra sobe cerca de 20 m de altura antes de chegar ao adversário do outro lado. Quanto tempo, em segundos, a bola permanece no ar? Adote g = 10 m/s2 e não considere o efeito do ar.</h3>
+    <input type="radio" name="quest_4" value="correta"> 4,0 <br>
+    <input type="radio" name="quest_4" value="errada">2,0 <br>
+    <input type="radio" name="quest_4" value="errada"> 3,0 <br>
+    <input type="radio" name="quest_4" value="errada">5,0 <br>
+    <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+
+    <p id="quantos_acertos"></p>
+        <button type="button" onclick="funcao_resposta()">Responder</button>
+</form>
 
 </body>
 </html>

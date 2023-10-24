@@ -1,5 +1,10 @@
+body{
+    
+    background-color: rgba(40, 36, 59, 0.315);
+   
+}
 
-sheader {
+header {
     background-color: #333; 
     color: #ffffff; 
     padding: 20px; 
