@@ -59,3 +59,8 @@ function funcao_resposta(){
     }
 
 }
+
+function mudar(objeto, imagem){
+
+    mov1.src = imagem;
+}

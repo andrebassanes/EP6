@@ -4,8 +4,15 @@
     <link rel="stylesheet" href="style.css">
     <title>Movimento de Projéteis</title>
 </head>
-<body>
+<body onload="inclui_nome()">
     <header>
+        
+            <a onmouseover="mudar('lampada', 'imagens/mov2.png')"
+            onmouseout="mudar('lampada', 'imagens/mov1.png')">
+            <img src="imagens/mov2.png" id="mov1"></a>
+        
+            
+
         <h1>Movimento de Projeteis</h1>
         <nav>
             <ul>
@@ -15,6 +22,8 @@
             </ul>
         </nav>
     </header>
+   <h2>olá</h2>
+    <p id="marcacao_nome"></p>
    
     
     <h3>O Movimento de Projéteis: A Ciência por Trás dos Lançamentos no Ar</h3>
@@ -66,6 +75,62 @@
     <input type="radio" name="quest_4" value="errada"> 3,0 <br>
     <input type="radio" name="quest_4" value="errada">5,0 <br>
     <p id="resp_correta_4" class="verde"></p><p id="resp_errada_4" class="vermelho"></p>
+
+    <h3>A respeito do lançamento horizontal que ocorre livre de forças dissipativas, assinale a alternativa correta:</h3>
+    <input type="radio" name="quest_5" value="correta">Nesse tipo de lançamento, a força peso é sempre perpendicular ao deslocamento horizontal e, por isso, não realiza trabalho nessa direção.<br>
+    <input type="radio" name="quest_5" value="errada"> A energia mecânica do objeto lançado horizontalmente aumenta a cada instante.<br>
+    <input type="radio" name="quest_5" value="errada">O tempo de queda de um objeto lançado horizontalmente não depende da altura do ponto de lançamento em relação ao chão.<br>
+    <input type="radio" name="quest_5" value="errada">No lançamento horizontal, o movimento que ocorre na direção vertical é uniformemente retardado.<br>
+    <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+    <h3>Uma bala de canhão é disparada horizontalmente, a uma velocidade de 60 m/s, à beira de um penhasco de 800 m de altura. Desconsidere a resistência do ar e determine o valor aproximado do alcance horizontal da bala de canhão. (Dado: g = 10 m/s²)</h3>
+    <input type="radio" name="quest_5" value="errada"> 385 m<br>
+    <input type="radio" name="quest_5" value="errada">1525 m<br>
+    <input type="radio" name="quest_5" value="correta"> 759 m<br>
+    <input type="radio" name="quest_5" value="errada"> 649 m<br>
+    <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+    <h3>Considere as afirmativas seguintes acerca do movimento de lançamento horizontal, para isso desconsidere a ação da força de resistência do ar. <br>
+
+        I – O tempo de queda de objetos lançados horizontalmente é proporcional à raiz quadrada da altura de queda.<br>
+        
+        II – O tempo de queda no lançamento horizontal depende da massa do corpo: quanto maior for essa massa, menor será o tempo de queda.<br>
+        
+        III – O tempo de queda de um corpo que se move em lançamento horizontal depende da velocidade horizontal do corpo.<br>
+        
+        IV – Na direção vertical, o movimento de um objeto lançado horizontalmente é uniformemente acelerado.<br>
+        
+        São verdadeiras:
+        </h3>
+    <input type="radio" name="quest_6" value="errada">II e III<br>
+    <input type="radio" name="quest_6" value="correta">I e IV<br>
+    <input type="radio" name="quest_6" value="errada">II, III e IV<br>
+    <input type="radio" name="quest_6" value="errada">somente II<br>
+    <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+    <h3>Uma esfera de 0,5 kg rola sem atrito sobre a superfície de uma mesa plana a uma velocidade de 2,0 m/s. Sabendo que a altura dessa mesa é de 0,8 m, determine o alcance da bola. (Dado: g = 10 m/s²)</h3>
+    <input type="radio" name="quest_7" value="correta">0,8 m<br>
+    <input type="radio" name="quest_7" value="errada"> 2,4 m<br>
+    <input type="radio" name="quest_7" value="errada">1,6 m<br>
+    <input type="radio" name="quest_7" value="errada"> 0,4 m<br>
+    <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+    <h3>Um projétil é lançado com velocidade inicial de intensidade igual a 50 m/s. A trajetória faz na origem um ângulo de 37° com a horizontal. As intensidades da velocidade e da aceleração no ponto mais alto da trajetória são: Dados: sen 37° = 0,60; cos 37° = 0,80; g = 10 m/s2  Despreza-se o efeito do ar.</h3>
+    <input type="radio" name="quest_8" value="errada"> v = 40 m/s; a = zero;<br>
+    <input type="radio" name="quest_8" value="errada">v = zero; a = zero;<br>
+    <input type="radio" name="quest_8" value="correta">v = 40 m/s; a = 10 m/s2;<br>
+    <input type="radio" name="quest_8" value="errada">v = 30 m/s; a = zero;<br>
+    <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+    <h3>Em um local onde o efeito do ar é desprezível e g = 10 m/s2 um nadador salta de um trampolim de 12m de altura e atinge a água a uma distância de 6,0 m, medida horizontalmente da borda do trampolim, em um intervalo de tempo de 2,0s. A velocidade do nadador no instante do salto tem intensidade igual a:</h3>
+    <input type="radio" name="quest_9" value="correta"> 5,0 m/s<br>
+    <input type="radio" name="quest_9" value="errada"> 3,0 m/s<br>
+    <input type="radio" name="quest_9" value="errada"> 4,0 m/s<br>
+    <input type="radio" name="quest_9" value="errada">7,0 m/s<br>
+    <p id="resp_correta_1" class="verde"></p><p id="resp_errada_1" class="vermelho"></p><br>
+
+
+    
 
     <p id="quantos_acertos"></p>
         <button type="button" onclick="funcao_resposta()">Responder</button>
