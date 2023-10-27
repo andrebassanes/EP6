@@ -1,7 +1,7 @@
 body{
     
     background-color: rgba(40, 36, 59, 0.315);
-   
+    display: flex;
 }
 
 header {
@@ -53,4 +53,26 @@ h1 {
     height: auto;
     left:1rem;
     top:1rem ;
+}
+
+.verde{
+    color: rgb(61, 9, 202);
+}
+
+.vermelho{
+    color: red;
+}
+
+
+
+aside {
+    width: 100%; /* Define a largura do lado esquerdo */
+    background-color: #f0f0f0; /* Cor de fundo do lado esquerdo */
+    padding: 20px;
+}
+
+.content {
+    width: 50%; /* Define a largura do conteúdo principal */
+    background-color: #ffffff; /* Cor de fundo do conteúdo principal */
+    padding: 20px;
 }
