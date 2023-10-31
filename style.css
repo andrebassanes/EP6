@@ -92,7 +92,7 @@ body {
     align-items: center;
     justify-content: space-between;
     min-height: 100vh;
-    margin: 0;
+    margin: 20px;
     background: linear-gradient(to bottom, #dddddd, #9b9898);
 }
 
